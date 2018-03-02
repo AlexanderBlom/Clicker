@@ -104,10 +104,9 @@ article {
 
 #clickerbutton {
 	font-size: 4em;
-	width: 400px;
-	height: 400px;
+	width: 350px;
+	height: 350px;
 	border-radius: 60%;
-	background-size: 550px;
 }
 
 #clickerbutton:focus {
@@ -118,7 +117,7 @@ article {
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%,0);
-	margin-top: 10%;
+	margin-top: 5%;
 	border-radius: 5px;
 	border: 3px solid black;
 }
@@ -127,14 +126,40 @@ article {
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%,0);
-	margin-top: 7%;
+	margin-top: 3%;
 }
 
-#lion, #zebra, #bird {
+#lizard, #zebra, #bird {
 	width:150px;
 	height:50px;
 }
 
 #powerUpCounter {
 	font-size: 2em;
+}
+
+#ödla {
+	float: left;
+}
+
+.odlan {
+	background-image: url("bilder/Asset_1.svg");
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	z-index: -1;
+}
+
+.fageln {
+	background-image: url("bilder/birdBox.svg");
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	z-index: -1;
+}
+
+.zebran {
+
 }
