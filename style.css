@@ -107,10 +107,20 @@ article {
 	width: 350px;
 	height: 350px;
 	border-radius: 60%;
+	background-image: url("bilder/tiger.svg");
+	background-color: transparent;
+	padding: 0;
+	background-position: center;
+	background-size: 85%;
+	background-repeat: no-repeat;
 }
 
 #clickerbutton:focus {
 	outline: 0px;
+}
+
+#clickerbutton:active {
+	background-size: 92%;
 }
 
 #powerups {
@@ -119,7 +129,6 @@ article {
 	transform: translate(-50%,0);
 	margin-top: 5%;
 	border-radius: 5px;
-	border: 3px solid black;
 }
 
 #powerText {
@@ -136,10 +145,6 @@ article {
 
 #powerUpCounter {
 	font-size: 2em;
-}
-
-#ödla {
-	float: left;
 }
 
 .odlan {
@@ -161,5 +166,10 @@ article {
 }
 
 .zebran {
-
+	background-image: url("bilder/zebra.svg");
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	z-index: -1;
 }

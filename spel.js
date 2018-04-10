@@ -26,9 +26,9 @@ var birdCost = 100;
 var lizardCount = 0;
 var zebraCount = 0;
 var birdCount = 0;
-var odlai = 0;
-var zebrai = 0;
-var fageli = 0;
+var odlaI = 0;
+var zebraI = 0;
+var fagelI = 0;
 
 /* startvärden */
 scoreText.textContent = "Points: 0";
@@ -60,15 +60,15 @@ lizardButton.addEventListener("click", function() {
 		odla = document.createElement("div");
 		odla.className = "odlan";
 		document.getElementsByTagName("body")[0].appendChild(odla);
-		odlai++;
+		odlaI++;
 
-		if ((odlai % 2) == 1) {
+		if ((odlaI % 2) == 1) {
 			odla.style.transform = "scaleX(-1)"
 		}
 		odla.style.top = Math.random()*1000 + "px";
 		odla.style.left = Math.random()*1300 + "px";
 		odla.style.right = Math.random()*1300 + "px";
-		odla.style.bottom = Math.random()*1000 + "px";
+		odla.style.bottom = Math.random()*1300 + "px";
 	} else {
 		powerText.textContent = "Du har inte råd med Ödla";
 	}
@@ -88,8 +88,8 @@ zebraButton.addEventListener("click", function() {
 		zebran.className = "zebran";
 		document.getElementsByTagName("body")[0].appendChild(zebran);
 
-		zebrai++;
-		if ((zebrai % 2) == 1) {
+		zebraI++;
+		if ((zebraI % 2) == 1) {
 			zebran.style.transform = "scaleX(-1)"
 		}
 		zebran.style.top = Math.random()*1000 + "px";
@@ -118,8 +118,8 @@ birdButton.addEventListener("click",function(){
 		fageln.className = "fageln";
 		document.getElementsByTagName("body")[0].appendChild(fageln);
 
-		fageli++;
-		if ((fageli % 2) == 1) {
+		fagelI++;
+		if ((fagelI % 2) == 1) {
 			fageln.style.transform = "scaleX(-1)"
 		}
 		fageln.style.top = Math.random()*1000 + "px";
